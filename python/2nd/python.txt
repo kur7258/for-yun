@@ -1,0 +1,82 @@
+Python
+
+
+
+remove() = 리스트 원소 지우기
+
+ex) weeks.remove('monday')
+
+pop() = 원소를 지움과 동시에 그 원소를 가져옴(위치를 설정해 주지 않으면 맨 마지막 요소를 반환)
+
+ex)weeks.pop(1)
+
+index() = list 내에서 입력한 원소를 찾음
+
+ex) weeks.index('tuesday') 
+
+in = list 내에서 입력한 원소를 찾고 ture or false로 반환
+
+ex) 'mon' in weeks = True
+
+count() = list내에 입력한 원소가 몇 개나 있는지 확인
+
+weeks=['mon','mon','tue','wed']
+weeks.count('mon') => 2
+
+첫 날에 있던 join() = list로 반환됨 (split의 반대 역할을 함)
+
+sort = list 내부 정렬(숫자 = 오름차순/ 문자열 = 알파벳순)
+sorted = 새로 만든 변수에 정렬한 후 저장{
+number=['one','two','three','four','five']
+snumbers=sorted(number)
+print(snumbers) = ['five', 'four', 'one', 'three', 'two']
+print(number) = ['one', 'two', 'three', 'four', 'five']
+
+number.sort()
+print(number) = ['five', 'four', 'one', 'three', 'two']
+}
+
+***리스트의 대입 ex) number=['one','two','three','four','five'] / a = number는 값의 복사가 아닌 별명으로 취급 나중에 설명
+a[0]를 바꾸면 number list의 'one'이 변경됨.
+ 별명이 아닌 별도의 복사본을 가지고 싶으면 copy()를 사용 ex) a = number.copy()
+
+tuple = list의 기능을 하나 내부 변경 불가능 ex) atuple=('a','b','c') {
+내용 변경이 불가능하니 append / insert 불가능
+원소를 변수로도 할당 가능 ex) a=(a,b) a가 a,b란 tuple이 됨/ a,b=(b,a) =>b가 a에 삽입되고 a가 b에 삽입됨
+
+**tuple = () list = [] set/dictionary={}
+}
+
+dictionary = list와 비슷하지만, 각 값에 상응하는 고유한 키를 지정해서 만든다.{
+dict는 변경 가능하므로 키-값 요소를 추가, 삭제, 수정할 수 있다.
+
+ex) Nweeks={
+    	'1': 'monday',
+	'2': 'tuesday',
+	'3': 'wednsday',
+}
+
+존재하는 키 값을 수정하면 덮어씌워짐
+update()함수로 한 dict의 키와 값들을 복사해서 다른 dict에 붙여넣기 가능
+del Nweeks['1'] => 1키와 monday값이 사라짐
+Nweeks.clear() => dict 내부의 모든 값을 삭제시킴 {}로 출력됨
+in으로 dict내부의 키가 존재하는지 알 수 있음 true or false
+keys() = dict의 모든 키 값 얻기
+values() = dict의 모든 값 얻기
+items() = dict의 모든 키와 값 얻기
+copy() = list와 같은 역할로 사용됨
+}
+
+set = 값은 버리고 키만 남은 dict와 같음{
+dict와 마찬가지로 각 키는 유일해야함
+어떤 것이 존재하는지 여부만 판단하기 위해서는 set을 사용함
+키에 어떤 정보를 첨부해서 그 결과를 얻고 싶으면 dict를 사용함
+dict의 명령어들과 대부분 호환됨
+
+수퍼셋, 서브셋 (기호 또는 issubset() 또는 issuperset()으로 호환 가능)
+}
+
+& = 교집합 =intersect()
+| = 합집합 = union()
+a-b = 차집합 = difference()
+^ = 대칭차집합 = ex) a^b = a에만 있거나 b에만 있거나 = symetric_difference()
