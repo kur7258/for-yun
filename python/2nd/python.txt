@@ -26,7 +26,7 @@ weeks.count('mon') => 2
 첫 날에 있던 join() = list로 반환됨 (split의 반대 역할을 함)
 
 sort = list 내부 정렬(숫자 = 오름차순/ 문자열 = 알파벳순)
-sorted = 새로 만든 변수에 정렬한 후 저장{
+x = sorted = 새로 만든 변수x에 정렬한 후 저장{
 number=['one','two','three','four','five']
 snumbers=sorted(number)
 print(snumbers) = ['five', 'four', 'one', 'three', 'two']
