@@ -1,0 +1,10 @@
+룰베이스 시스템(knowledge engineering) vs deeplearning system
+
+Data mining(데이터 캐내기)
+
+preference(성향) - 이런 pattern을 모으면 data가 됨
+
+data vs information vs knowledge vs wisedom - 흩어진 점, 연관된 것들이 선으로 연결된 것, 그 선이 의미있는 레이블로 연결된 것,  시간이 쌓인 지식 지식의 완성체 - 지혜
+
+
+
