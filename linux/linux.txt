@@ -20,7 +20,7 @@ ex) alias ls='ls -al' = ls를 입력하면 ls -al 실행
 
 su = 관리자 권한으로 접근 {
 exit = 관리자 권한 나오기
-sudo "명령어" = 이 명령에만 관리자 권한으로 접근
+sudo(super user do) "명령어" = 이 명령에만 관리자 권한으로 접근
 
 사용자{
 adduser 'name' = name이라는 사용자 추가
@@ -70,3 +70,35 @@ gcc loop.c -o loop = loop.c 라는 프로세스를 백그라운드로 실행
 kill -9 PID번호 = 해당 pid의 프로세스를 강제종료
 
 touch x.txt = x.txt라는 비어있는 파일 생성
+
+tab키 생활화!
+
+-  =     parameter - 동작하는 방식이 바뀜
+
+recursive = 재귀적인(순차적인??)
+
+man - /로 검색 가능 그 후 n으로 넘기기 가능
+
+mkdir -p d1/d2/d3/d4 순차적으로 생성 가능 (parents)
+
+옵션 - 1개면 축약형 -- 2개면 full name
+
+-S = 파일 사이즈 오름차순 정렬
+
+cp 파일위치/파일이름 파일위치/파일이름 (앞 파일을 뒤 위치의 파일명으로 copy)
+
+permission = 권한(chmod)
+
+파일 편집기 - nano{
+ctrl 6 - 블록
+ctrl w - search, input again -> next
+}
+
+apt-cache search 'apt이름' - 설치할 apt 찾기
+apt-get remove 'apt 이름' - remove apt
+
+sudo htop - cpu, background state
+
+wget -O '저장할 이름' 'url' - download
+
+12
