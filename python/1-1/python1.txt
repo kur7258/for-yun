@@ -90,7 +90,7 @@ join = 문자열 사이에 채워넣기{
 a=['abc', 'def', 'ghi']
 ','.join(a) => abc,def,ghi
 }
-
+///////////
 a.startswith('s') = a 문자열이 s로 시작하는가
 a.endswith('e') = a 문자열이 e로 끝나는가
 a.title() = 각 단어의 시작 부분을 대문자로 변경 ex) hello hello => Hello Hello

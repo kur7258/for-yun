@@ -1,0 +1,31 @@
+#201006
+
+// throw - exception 파생객체를 던져서 인위적으로 오류 발생시킬 수 있음
+
+// finally문 - 예외처리 문 중 하나인데 런타임 오류가 나도 억지로 실행시킴
+
+// try문 안에서 선언한 변수는 밖에서 사용 불가능 / 예외 처리문 안에서 초기화 하지 말란 소리
+
+// cs 는 예외 처리문 자주 사용 / 예외객체 e 는 뻘짓 하지 말고 System.Exception 파생객체 찾아서 쓰기!
+
+// goto - 점프문 중 하나
+
+// ArrayList 클래스 느낌으로 선언 후 객체 가져와서 Add()로 append 가능 이거도 python 느낌
+
+// cs 는 변수 선언에 ?로 nullable 변수 선언 가능
+
+// switch case 문에서 str형 사용 가능
+
+// C = A ?? B  - A가 null이면 C에 B를 대입
+
+// foreach 읽기전용 반복문 / python for문과 비슷한 느낌
+
+#201007
+
+//[] [,] [,,]로 일차원, 이차원, 다차원 배열 선언
+
+//가변 배열은 [][] 로 이차원 배열 선언 / 행 정해주면 열은 가변 [][][] - 면 행 열
+
+// Array.Clear 객체로 array 초기화 가능 Array.Clear(x, 삭제할 원소 index left, right)
+
+//Array 클래스에 Clear(), Clone() 객체는 자주 쓰이니까 외우기

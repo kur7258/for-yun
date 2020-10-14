@@ -101,4 +101,11 @@ sudo htop - cpu, background state
 
 wget -O '저장할 이름' 'url' - download
 
-12
+ex1 > ex2 : output/ ex1의 출력된 결과를 ex2에 저장 (redirection/ 1> : Standard Output / 2> : Standard Error) (>> : 내용을 추가 저장)
+
+
+ex < ex : input (<< : 내용을 추가 입력)
+
+head -n1 : 긴 내용의 txt 중 앞 내용 일부분을 standard output
+
+22 4:00
